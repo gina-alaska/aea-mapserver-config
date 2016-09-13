@@ -4,5 +4,5 @@ mapserver configs for aea
 URLS active:
 + /aea/suwa
 + /aea/suwa.private 
-+ /aea/atlas/
++ /aea/atlas
 
