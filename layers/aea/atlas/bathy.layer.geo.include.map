@@ -1,0 +1,7 @@
+  LAYER
+    NAME 'GINA.bathymetry'
+    TYPE RASTER
+    DATA "/www/wms.proto/apps/data/aea/bath.bw.tif"
+    OFFSITE 0 0 0
+    include "includes/projections/geo.include.map"
+  END

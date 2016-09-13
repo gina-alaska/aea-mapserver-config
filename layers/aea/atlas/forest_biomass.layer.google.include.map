@@ -1,0 +1,7 @@
+  LAYER
+    NAME 'forest.biomass'
+    TYPE RASTER
+    DATA '/www/wms.proto/apps/data/aea/forest_biomass.stock.google.rgb.tif'
+    OFFSITE 0 0 0
+    include "includes/projections/google.include.map"
+  END

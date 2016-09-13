@@ -1,0 +1,15 @@
+  LAYER
+    NAME 'wind.alaska.2011'
+    TYPE RASTER
+    DATA '/www/wms.proto/apps/data/aea/wind.aea.alaska.2011.colorized.geo.tif'
+    OFFSITE 0 0 0
+    include "includes/projections/geo.include.map"
+
+    METADATA 
+	"wms_style" "default"
+	"wms_style_default_legendurl_height" "350"
+	"wms_style_default_legendurl_href" "http://wms.proto.gina.alaska.edu/aea/wind_legend.png"
+	"wms_style_default_legendurl_format" "image/png"
+	"wms_style_default_legendurl_width" "317"
+    END
+  END
