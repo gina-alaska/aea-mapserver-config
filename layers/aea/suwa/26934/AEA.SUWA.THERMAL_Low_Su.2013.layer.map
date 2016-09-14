@@ -3,7 +3,7 @@ LAYER
 	 type raster
 	 status on
 	 OFFSITE 0 0 0
-	 DATA "/www/ogc/apps/data/aea/suwa/thermal/AEA.SUWA.Thermal_Low_Su.2013.tif"
+	 DATA "/ogc/data/aea/suwa/thermal/AEA.SUWA.Thermal_Low_Su.2013.tif"
 	 PROJECTION
 		"proj=tmerc"
 		"lat_0=54"

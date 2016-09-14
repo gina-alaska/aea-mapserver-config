@@ -1,7 +1,42 @@
   LAYER
     NAME 'forest.biomass'
     TYPE RASTER
-    DATA '/www/wms.proto/apps/data/aea/forest_biomass.stock.google.rgb.tif'
+    DATA '/ogc/data/aea/atlas/forest_biomass.stock.google.rgb.tif'
     OFFSITE 0 0 0
-    include "includes/projections/google.include.map"
+    include "projections/google.include.map"
+    CLASS
+        EXPRESSION (1<0)
+        NAME "1-5"     
+        STYLE
+                COLOR 190 255 232
+        END #STYLE
+    END 
+    CLASS
+        EXPRESSION (1<0)
+        NAME "5-15"
+        STYLE
+                COLOR 186 236 179
+        END #STYLE
+    END
+    CLASS
+        EXPRESSION (1<0)
+        NAME "15-30"
+        STYLE
+                COLOR 116 212 118
+        END #STYLE
+    END
+    CLASS
+        EXPRESSION (1<0)
+        NAME "30-60"
+        STYLE
+                COLOR 112 168 0
+        END #STYLE
+    END
+    CLASS
+        EXPRESSION (1<0)
+        NAME "60-310"
+        STYLE
+                COLOR 76 115 0
+        END #STYLE
+    END
   END

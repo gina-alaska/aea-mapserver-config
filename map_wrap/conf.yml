@@ -1,7 +1,7 @@
 defaults:
   prefix: map
-  mapserv: /opt/mapping_tools/bin/mapserv
-  envsh: /opt/mapping_tools/setup.sh
+  mapserv: /opt/mapping_tools_builds/2016.08.05/bin/mapserv
+  envsh: /opt/mapping_tools_builds/2016.08.05/setup.sh
   maps:
     nothing: /nothing.map
 configs:
@@ -20,3 +20,11 @@ configs:
     url: "/suwa"
     projections:
       default: "aea.suwa.map"
+  "/atlas":
+    prefix: "aea"
+    url: "/atlas"
+    projections:
+      default: "atlas.map"
+      3338: "atlas.aa.map"
+      4328: "atlas.geo.map"
+      3857: "atlas.google.map"

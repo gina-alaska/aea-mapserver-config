@@ -1,7 +1,7 @@
   LAYER
     NAME 'GINA.bathymetry'
     TYPE RASTER
-    DATA "/www/wms.proto/apps/data/aea/bath.bw.aa.tif"
+    DATA "/ogc/data/aea/atlas/bath.bw.aa.tif"
     OFFSITE 0 0 0
-    include "includes/projections/alaska_albers_nad83.include.map"
+    include "projections/alaska_albers_nad83.include.map"
   END

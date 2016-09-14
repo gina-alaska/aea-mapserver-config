@@ -1,7 +1,7 @@
   LAYER
     NAME 'AK.relief.shade'
     TYPE RASTER
-    DATA "/www/wms.proto/apps/data/aea/ak_relief_shade.tif"
+    DATA "/ogc/data/aea/atlas/ak_relief_shade.tif"
     OFFSITE 255 255 255
-    include "includes/projections/alaska_albers_nad83.include.map"
+    include "projections/alaska_albers_nad83.include.map"
   END

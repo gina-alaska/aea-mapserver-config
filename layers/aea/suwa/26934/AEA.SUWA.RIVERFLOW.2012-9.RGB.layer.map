@@ -3,7 +3,7 @@ LAYER
 	 type raster
 	 status on
 	 OFFSITE 255 255 255
-	 TILEINDEX "/www/ogc/apps/data/aea/suwa/riverflow/indexs/AEA.SUWA.RiverFlow.2012-9.shp"
+	 TILEINDEX "/ogc/data/aea/suwa/riverflow/indexs/AEA.SUWA.RiverFlow.2012-9.shp"
 	 TILEITEM "LOCATION"
 	 PROJECTION
 		"proj=tmerc"

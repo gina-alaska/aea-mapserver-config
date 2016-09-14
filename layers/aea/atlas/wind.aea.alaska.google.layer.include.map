@@ -1,8 +1,8 @@
   LAYER
     NAME 'wind.alaska.2011'
     TYPE RASTER
-    DATA '/www/wms.proto/apps/data/aea/wind.aea.alaska.2011.colorized.google.tif'
+    DATA '/ogc/data/aea/atlas/wind.aea.alaska.2011.colorized.google.tif'
     OFFSITE 0 0 0
-    include "includes/projections/google.include.map"
+    include "projections/google.include.map"
   END
 

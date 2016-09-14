@@ -1,7 +1,7 @@
   LAYER
     NAME 'bathy.ge'
     TYPE RASTER
-    DATA "/www/wms.proto/apps/data/aea/bath.bw.tif"
+    DATA "/ogc/data/aea/atlas/bath.bw.tif"
     OFFSITE 0 0 0
     include "includes/projections/geo.include.map"
   END

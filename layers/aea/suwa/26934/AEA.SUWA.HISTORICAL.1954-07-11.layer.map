@@ -3,7 +3,7 @@ LAYER
 	 type raster
 	 status on
 	 OFFSITE 0 0 0
-	 DATA "/www/ogc/apps/data/aea/suwa/historical/AEA.SUWA.Historical.1950s/suwa.historical.N83AK4.11JUL1954.tif"
+	 DATA "/ogc/data/aea/suwa/historical/AEA.SUWA.Historical.1950s/suwa.historical.N83AK4.11JUL1954.tif"
 	 PROJECTION
 		"proj=tmerc"
 		"lat_0=54"

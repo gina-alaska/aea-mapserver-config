@@ -1,0 +1,74 @@
+MAP
+  NAME "AEA"
+  # Map image size
+  SIZE 100 100
+  UNITS meters
+
+  EXTENT -547477.560536 1421001.167413 -470114.348359 1470627.750314
+  FONTSET 'fonts/default/fonts.lst'
+
+  include "projections/alaska_albers_nad83.include.map"
+
+  # Background color for the map canvas -- change as desired
+  IMAGECOLOR 0 0 0 
+  IMAGEQUALITY 95
+  IMAGETYPE png
+  MAXSIZE 10000
+
+#  include "includes/defaults/output_formats.agg.include.map"
+
+OUTPUTFORMAT
+  NAME png
+  DRIVER "GD/PNG"
+  MIMETYPE "image/png"
+  IMAGEMODE RGB
+  EXTENSION "png"
+  FORMATOPTION "INTERLACE=OFF"
+END
+
+
+  # Legend
+  LEGEND
+      IMAGECOLOR 255 255 255
+    STATUS ON
+    KEYSIZE 18 12
+    LABEL
+      TYPE BITMAP
+      SIZE MEDIUM
+      COLOR 0 0 89
+    END
+  END
+
+  # Web interface definition. Only the template parameter
+  # is required to display a map. See MapServer documentation
+  WEB
+    # Set IMAGEPATH to the path where MapServer should
+    # write its output.
+    IMAGEPATH '/tmp/'
+
+    # Set IMAGEURL to the url that points to IMAGEPATH
+    # as defined in your web server configuration
+    IMAGEURL '/tmp/'
+
+    # WMS server settings
+    METADATA
+      'ows_title'           'AEA'
+      #'ows_onlineresource'  'http://wms.proto.gina.alaska.edu/wms/aea'
+      'ows_onlineresource' 'http://spam.gina.alaska.edu/aea/atlas'
+      'ows_srs'             'EPSG:4326 EPSG:3338 EPSG:900913 EPSG:3857'
+      'ows_enable_request' '*'
+    END
+
+    #Scale range at which web interface will operate
+    # Template and header/footer settings
+    # Only the template parameter is required to display a map. See MapServer documentation
+    TEMPLATE 'fooOnlyForWMSGetFeatureInfo'
+  END
+
+  include "layers/aea/atlas/wind.aea.alaska.geo.layer.include.map"
+  include "layers/aea/atlas/forest_biomass.layer.geo.include.map"
+  include "layers/aea/atlas/bathy.layer.include.map"
+  include "layers/aea/atlas/ak_relief_shade.geo.include.map"
+
+
+END

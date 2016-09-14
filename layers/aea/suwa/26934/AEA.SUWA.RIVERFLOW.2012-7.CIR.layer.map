@@ -3,7 +3,7 @@ LAYER
 	 type raster
 	 status on
 	 OFFSITE 255 255 255
-	 DATA "/www/ogc/apps/data/aea/suwa/riverflow/AEA.SUWA.RiverFlow.2012-7.tif"
+	 DATA "/ogc/data/aea/suwa/riverflow/AEA.SUWA.RiverFlow.2012-7.tif"
 	 PROJECTION
 		"proj=tmerc"
 		"lat_0=54"

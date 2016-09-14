@@ -4,7 +4,7 @@ LAYER
 	 type raster
 	 status on
 	 OFFSITE 0 0 0
-	 DATA "/www/ogc/apps/data/aea/suwa/veg_map_sat/suwa.veg_map_sat.N83Ak4.tif"
+	 DATA "/ogc/data/aea/suwa/veg_map_sat/suwa.veg_map_sat.N83Ak4.tif"
 	 PROJECTION
 		"proj=tmerc"
 		"lat_0=54"

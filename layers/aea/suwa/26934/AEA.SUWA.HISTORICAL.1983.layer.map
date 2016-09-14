@@ -3,7 +3,7 @@ LAYER
 	 type raster
 	 status on
 	 OFFSITE 0 0 0  
-	 TILEINDEX "/www/ogc/apps/data/aea/suwa/historical/indexes/AEA.SUWA.Historical.1983.shp"
+	 TILEINDEX "/ogc/data/aea/suwa/historical/indexes/AEA.SUWA.Historical.1983.shp"
 	 TILEITEM "LOCATION"
 	 PROJECTION
 		"proj=tmerc"
