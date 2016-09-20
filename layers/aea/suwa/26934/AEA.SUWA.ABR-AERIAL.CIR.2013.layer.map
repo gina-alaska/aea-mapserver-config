@@ -3,7 +3,8 @@ LAYER
 	 type raster
 	 status on
 	 OFFSITE 0 0 0
-	 DATA "/www/ogc/apps/data/gina/abr-aerial/suwa.abr.ortho.ak4_83.2013.tif"
+	 DATA "/ogc/data/aea/abr-aerial/suwa.abr.ortho.ak4_83.2013.tif"
+
 	 PROJECTION
 		"proj=tmerc"
 		"lat_0=54"
