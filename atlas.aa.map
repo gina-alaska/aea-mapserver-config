@@ -15,9 +15,9 @@ MAP
   IMAGETYPE png
   MAXSIZE 10000
 
-  DEBUG 5
+  #DEBUG 5
   SHAPEPATH "."
-  CONFIG "MS_ERRORFILE" "/dev/stderr"
+  #CONFIG "MS_ERRORFILE" "/dev/stderr"
 
 
 #  include "includes/defaults/output_formats.agg.include.map"
