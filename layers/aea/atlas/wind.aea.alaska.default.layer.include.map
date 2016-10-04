@@ -1,0 +1,66 @@
+  LAYER
+    NAME 'wind.alaska.2011'
+    TYPE RASTER
+    DATA '/ogc/data/aea/atlas/wind.aea.alaska.2011.colorized.tif'
+    OFFSITE 0 0 0
+    include "projections/alaska_albers_nad83.include.map"
+
+    CLASS
+        EXPRESSION (1<0)
+        NAME "Poor, < 200 50mW/m^2"
+        STYLE
+                COLOR 255 255 255
+        END #STYLE
+    END
+    CLASS
+        EXPRESSION (1<0)
+        NAME "Marginal, 200-300 50mW/m^2"
+        STYLE
+		 COLOR 250 226 181
+        END #STYLE
+    END
+    CLASS
+        EXPRESSION (1<0)
+        NAME "Fair, 300-400 50mW/m^2"
+        STYLE
+                 COLOR 255 170 0
+        END #STYLE
+    END
+    CLASS
+        EXPRESSION (1<0)
+        NAME "Good, 400-500 50mW/m^2"
+        STYLE
+                 COLOR 255 115 220
+        END #STYLE
+    END
+    CLASS
+        EXPRESSION (1<0)
+        NAME "Excellent, 500-600 50mW/m^2"
+        STYLE
+                 COLOR 174 0 236
+        END #STYLE
+    END
+    CLASS
+        EXPRESSION (1<0)
+        NAME "Outstanding, 600-800 50mW/m^2"
+        STYLE
+                 COLOR 255 0 0 
+        END #STYLE
+    END
+
+    CLASS
+        EXPRESSION (1<0)
+        NAME "Superb, >800 50mW/m^2"
+        STYLE
+                 COLOR 0 0 250
+        END #STYLE
+    END
+
+    METADATA 
+	"wms_style" "default"
+	#"wms_style_default_legendurl_height" "350"
+	#"wms_style_default_legendurl_href" "http://wms.proto.gina.alaska.edu/aea/wind_legend.png"
+	#"wms_style_default_legendurl_format" "image/png"
+	#"wms_style_default_legendurl_width" "317"
+    END
+  END

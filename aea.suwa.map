@@ -22,7 +22,7 @@ MAP
 	include "layers/aea/suwa/26934/AEA.SUWA.HISTORICAL.1983.layer.map"
 	include "layers/aea/suwa/26934/AEA.SUWA.RAPIDEYE.2011.RGB.layer.map"
 	include "layers/aea/suwa/26934/AEA.SUWA.RAPIDEYE.2011.CIR.layer.map"
-	include "layers/aea/suwa/26934/foo.layer.map"
+	include "layers/aea/suwa/26934/north_Susitna_rgb.layer.map"
 	include "layers/aea/suwa/26934/AEA.SUWA.ORTHO.2013.CIR.layer.map"
 	include "layers/aea/suwa/26934/AEA.SUWA.ORTHO.2013.RGB.layer.map"
 	include "layers/aea/suwa/26934/AEA.SUWA.URS-trails.CIR.2013.layer.map"

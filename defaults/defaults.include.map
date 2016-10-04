@@ -16,7 +16,7 @@
 
 # Output formats - only important thing is png24 - 24bit pngs.
 
-	include "includes/defaults/output_formats.includes.map"
+	include "defaults/output_formats.includes.map"
 
 ### Not used for wms based stuff..
      	include "includes/projections/alaska_albers_nad83.include.map"

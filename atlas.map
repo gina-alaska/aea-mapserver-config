@@ -4,7 +4,7 @@ MAP
   SIZE 100 100
   UNITS meters
 
-  EXTENT -547477.560536 1421001.167413 -470114.348359 1470627.750314
+  EXTENT -3000000 -3000000 3000000 2800000
   FONTSET 'fonts/default/fonts.lst'
 
   include "projections/alaska_albers_nad83.include.map"
@@ -65,8 +65,8 @@ END
     TEMPLATE 'fooOnlyForWMSGetFeatureInfo'
   END
 
-  include "layers/aea/atlas/wind.aea.alaska.geo.layer.include.map"
-  include "layers/aea/atlas/forest_biomass.layer.geo.include.map"
+  include "layers/aea/atlas/wind.aea.alaska.default.layer.include.map"
+  include "layers/aea/atlas/forest_biomass.layer.default.include.map"
   include "layers/aea/atlas/bathy.layer.include.map"
   include "layers/aea/atlas/ak_relief_shade.geo.include.map"
 

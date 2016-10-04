@@ -3,7 +3,7 @@ LAYER
 	 type raster
 	 status on
 	 OFFSITE 0 0 0
-	 TILEINDEX "/www/ogc/apps/data/gina/urs-trails/indexes/urs-trails.shp"
+	 TILEINDEX "/ogc/data/aea/urs-trails/indexes/urs-trails.shp"
 	 TILEITEM "LOCATION"
 	 PROJECTION
 		"proj=tmerc"

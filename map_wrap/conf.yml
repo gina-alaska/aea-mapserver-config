@@ -26,5 +26,5 @@ configs:
     projections:
       default: "atlas.map"
       3338: "atlas.aa.map"
-      4328: "atlas.geo.map"
+      4326: "atlas.geo.map"
       3857: "atlas.google.map"

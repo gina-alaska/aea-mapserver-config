@@ -17,7 +17,7 @@
 
 # Output formats - only important thing is png24 - 24bit pngs.
 
-	include "includes/defaults/output_formats.agg.include.map"
+	include "defaults/output_formats.agg.include.map"
 
 ### Not used for wms based stuff..
 	#include "includes/projections/4326.include.map"
@@ -35,7 +35,7 @@
 			"wms_title"             "AEA.SuWa.Public"
 			"wms_name"              "AEA.SUWA.Public"
 			"wms_abstract"          "Provided by the Alaska Energy Authority Susitna-Watana Hydro. Unrestricted data. Support provided by GINA (http://gina.alaska.edu)."
-	                include "includes/defaults/wms_defaults.include.map"
+	                include "defaults/wms_defaults.include.map"
 			"wms_onlineresource"    "http://ogc.gina.alaska.edu/aea/suwa?"
 			"wms_enable_request"	"*"
 		END

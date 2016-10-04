@@ -1,43 +1,7 @@
   LAYER
     NAME 'forest.biomass'
     TYPE RASTER
+    include "projections/alaska_albers_nad83.include.map"
     DATA '/ogc/data/aea/atlas/forest_biomass.stock.rgb.tif'
     OFFSITE 0 0 0
-    include "projections/alaska_albers_nad83.include.map"
-    CLASS
-        EXPRESSION (1<0)
-        NAME "1-5 tons/acre"     
-        STYLE
-                COLOR 190 255 232
-        END #STYLE
-    END 
-    CLASS
-        EXPRESSION (1<0)
-        NAME "5-15 tons/acre"
-        STYLE
-                COLOR 186 236 179
-        END #STYLE
-    END
-    CLASS
-        EXPRESSION (1<0)
-        NAME "15-30 tons/acre"
-        STYLE
-                COLOR 116 212 118
-        END #STYLE
-    END
-    CLASS
-        EXPRESSION (1<0)
-        NAME "30-60 tons/acre"
-        STYLE
-                COLOR 112 168 0
-        END #STYLE
-    END
-    CLASS
-        EXPRESSION (1<0)
-        NAME "60-310 tons/acre"
-        STYLE
-                COLOR 76 115 0
-        END #STYLE
-    END
-
   END
