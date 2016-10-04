@@ -53,8 +53,7 @@ END
     # WMS server settings
     METADATA
       'ows_title'           'AEA'
-      #'ows_onlineresource'  'http://wms.proto.gina.alaska.edu/wms/aea'
-      'ows_onlineresource' 'http://spam.gina.alaska.edu/aea/atlas'
+      'ows_onlineresource' 'http://ogc.gina.alaska.edu/aea/atlas'
       'ows_srs'             'EPSG:4326 EPSG:3338 EPSG:900913 EPSG:3857'
       'ows_enable_request' '*'
     END
