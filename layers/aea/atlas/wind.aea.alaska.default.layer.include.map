@@ -59,7 +59,6 @@
 
     METADATA 
 	"wms_style" "default"
- 	"wms_bbox_extended" "true"
 	#"wms_style_default_legendurl_height" "350"
 	#"wms_style_default_legendurl_href" "http://wms.proto.gina.alaska.edu/aea/wind_legend.png"
 	#"wms_style_default_legendurl_format" "image/png"
