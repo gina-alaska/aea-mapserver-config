@@ -1,9 +1,10 @@
   LAYER
     NAME 'wind.alaska.2011'
     TYPE RASTER
-    DATA '/ogc/data/aea/atlas/wind.aea.alaska.2011.colorized.tif'
+
+    DATA '/ogc/data/aea/atlas/wind.aea.alaska.2011.colorized.geo.tif'
     OFFSITE 0 0 0
-    include "projections/alaska_albers_nad83.include.map"
+    include "projections/geo.include.map"
 
     CLASS
         EXPRESSION (1<0)
